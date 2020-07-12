@@ -5,6 +5,8 @@ _Aplicación sencilla de clima desarrollada con React Native Expo_
 ![Reporte](https://github.com/Pab-Source/climaapp-react-native/blob/master/assets/report.png)
 ![Cinco días](https://github.com/Pab-Source/climaapp-react-native/blob/master/assets/five-days.png)
 
+_Con ésta app podrás ver el estado del clima de 5 ciudades para el día actual, y 5 días posteriores al presionar el botón con el símbolo de +_
+
 ## Comenzando 🚀
 
 **Yarn**
