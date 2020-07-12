@@ -7,8 +7,6 @@ _Aplicación sencilla de clima desarrollada con React Native Expo_
 
 ## Comenzando 🚀
 
-_Ejecuta_
-
 **Yarn**
 `yarn install`
 
@@ -27,13 +25,9 @@ expo 3.21.5
 
 ## Ejecutando las pruebas ⚙️
 
-_Para ejecutar las pruebas_
-
 `yarn test`
 
 ## Construido con 🛠️
-
-_Menciona las herramientas que utilizaste para crear tu proyecto_
 
 - [React-Native](https://reactnative.dev/)
 - [React-Native-Elements](https://react-native-elements.github.io/react-native-elements/)
