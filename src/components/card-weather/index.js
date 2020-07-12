@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text } from "react-native";
+import { View, Text, ScrollView } from "react-native";
 import { Icon, Card } from "react-native-elements";
 import OverlayCustom from "../overlay";
 import TitleCard from "../title-card";

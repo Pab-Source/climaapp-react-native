@@ -8,18 +8,20 @@ const _temp_ = {
   alignItems: "center",
   justifyContent: "center",
   borderColor: "#f2f2f2",
-  borderStyle: "dashed"
+  borderStyle: "dashed",
+  height: "40%"
 };
 
 const styles = StyleSheet.create({
   cardWeather: {
     width,
-    height: "92%"
+    height: "90%"
   },
   containerCard: {
     flex: 1,
     marginBottom: 10,
-    borderRadius: 5
+    borderRadius: 5,
+    paddingVertical: 10
   },
   dividerStyle: {
     backgroundColor: "#feae3d",
@@ -39,25 +41,25 @@ const styles = StyleSheet.create({
   },
   tempMin: {
     ..._temp_,
-    paddingVertical: height > 600 ? 45 : 25,
+    justifyContent: "center",
     borderLeftWidth: 2,
     borderTopWidth: 2
   },
   tempMax: {
     ..._temp_,
-    paddingVertical: height > 600 ? 45 : 25,
+    justifyContent: "center",
     borderRightWidth: 2,
     borderTopWidth: 2
   },
   sent: {
     ..._temp_,
-    paddingVertical: height > 600 ? 45 : 25,
+    justifyContent: "center",
     borderLeftWidth: 2,
     borderBottomWidth: 2
   },
   humd: {
     ..._temp_,
-    paddingVertical: height > 600 ? 45 : 25,
+    justifyContent: "center",
     borderRightWidth: 2,
     borderBottomWidth: 2
   },
