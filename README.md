@@ -23,13 +23,13 @@ expo 3.21.5
 `Ejecutar emulador, (Android Studio o X-Code)`
 `expo start ó yarn start`
 
-`para correr en android presionar la tecla "a" en la terminal`
-`para correr en ios presionar la tecla "i" en la terminal`
+**Android**`presionar la tecla "a" en la terminal`
+**IOS**`presionar la tecla "i" en la terminal`
 
 **Visualizar app**
-`Escaner QR en Expo`
+`Escanear QR en Expo`
 
-- [Expo](https://expo.io/@pabsource/climaApp)
+- [ClimaApp](https://expo.io/@pabsource/climaApp)
 
 ## Ejecutando las pruebas ⚙️
 
