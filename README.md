@@ -20,7 +20,7 @@ expo 3.21.5
 
 ### Instalación 🔧
 
-`Ejecutar emulador, (Android Studio o X-Code)`
+`Android Studio o X-Code`
 
 **Ejecutar**`expo start ó yarn start`
 
@@ -29,7 +29,8 @@ expo 3.21.5
 **IOS**`presionar la tecla "i" en la terminal`
 
 **Visualizar app**
-`Escanear QR en Expo`
+
+`Escanear QR con el dispositivo en Expo`
 
 - [ClimaApp](https://expo.io/@pabsource/climaApp)
 
