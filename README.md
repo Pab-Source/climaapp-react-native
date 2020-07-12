@@ -21,7 +21,8 @@ expo 3.21.5
 ### Instalación 🔧
 
 `Ejecutar emulador, (Android Studio o X-Code)`
-`expo start ó yarn start`
+
+**Ejecutar**`expo start ó yarn start`
 
 **Android**`presionar la tecla "a" en la terminal`
 
