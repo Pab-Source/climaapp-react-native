@@ -7,7 +7,7 @@ describe("<AppContainer />", () => {
   test("has 3 child", () => {
     expect(renderApp.children.length).toBe(3);
   });
-  it("renders correctly", () => {
+  test("renders correctly", () => {
     const tree = renderer.create(<AppContainer />).toJSON();
     expect(tree).toMatchSnapshot();
   });
