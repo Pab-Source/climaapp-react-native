@@ -1,9 +1,12 @@
 import React from "react";
-import { ActivityIndicator, StyleSheet, Dimensions } from "react-native";
+import { ActivityIndicator, StyleSheet, Dimensions, View } from "react-native";
 
 const Loading = () => (
-  <ActivityIndicator size="large" color="red" style={styles.loading} />
+  <View>
+    <ActivityIndicator size="large" color="#feae3d" style={styles.loading} />
+  </View>
 );
+
 const width = Dimensions.get("window").width;
 const styles = StyleSheet.create({
   loading: {

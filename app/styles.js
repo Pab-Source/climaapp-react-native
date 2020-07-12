@@ -9,6 +9,7 @@ const styles = StyleSheet.create({
   titleContainer: {
     flexBasis: "20%",
     flex: 1,
+    flexDirection: "row",
     alignItems: "center",
     justifyContent: "center"
   },

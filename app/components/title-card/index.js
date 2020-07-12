@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 import { View, Text } from "react-native";
 import { Icon } from "react-native-elements";
 import { container, title, icon } from "./styles";
@@ -17,8 +18,12 @@ const TitleCard = ({ text, setVisible }) => {
   );
 };
 
+TitleCard.propTypes = {
+  text: PropTypes.string.isRequired,
+  setVisible: PropTypes.func.isRequired
+};
 TitleCard.defaultProps = {
   text: "",
-  setVisible: () => {}
+  setVisible: () => console.log("setVisible")
 };
 export default TitleCard;

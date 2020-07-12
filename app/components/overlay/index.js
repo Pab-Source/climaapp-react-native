@@ -1,5 +1,6 @@
 import React from "react";
 import { Overlay, Icon } from "react-native-elements";
+import PropTypes from "prop-types";
 import { ScrollView, View, Text } from "react-native";
 import moment from "moment";
 import "moment/locale/es";
@@ -69,9 +70,22 @@ const OverlayCustom = ({ next, setVisible, visible }) => {
   );
 };
 
+OverlayCustom.propTypes = {
+  next: PropTypes.array.isRequired,
+  setVisible: PropTypes.func.isRequired,
+  visible: PropTypes.bool.isRequired
+};
 OverlayCustom.defaultProps = {
-  next: [""],
-  setVisible: () => {},
+  next: [
+    {
+      temp: 12.1,
+      temp_min: 13.2,
+      temp_max: 15.1,
+      sensation: 10,
+      humidity: 12
+    }
+  ],
+  setVisible: () => console.log("setVisible"),
   visible: false
 };
 

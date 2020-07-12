@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Text, View, ScrollView } from "react-native";
+import { Icon } from "react-native-elements";
 import { getWeatherCity, getFiveDaysWeather } from "./utils/http";
 import { generateReport } from "./utils/generate-report";
 
@@ -43,12 +44,13 @@ const AppContainer = () => {
         <Text style={title}>
           Weather|<Text style={span}>App</Text>
         </Text>
+        <Icon type="font-awesome-5" name="sun" color="#feae3d" />
       </View>
       <View style={formContainer}>
         <Picker setLoading={setLoading} setOption={setOption} option={option} />
       </View>
       <View style={report}>
-        <ScrollView horizontal onScrollAnimationEnd>
+        <ScrollView horizontal>
           {loading ? (
             <Loading />
           ) : (

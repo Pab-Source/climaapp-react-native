@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import PropTypes from "prop-types";
 import { View, Text } from "react-native";
 import { Icon, Card } from "react-native-elements";
 import OverlayCustom from "../overlay";
@@ -23,7 +24,7 @@ const CardWeather = ({ city }) => {
   const [visible, setVisible] = useState(false);
 
   return (
-    <>
+    <View>
       <OverlayCustom next={next} setVisible={setVisible} visible={visible} />
       <View style={cardWeather}>
         <Card
@@ -37,7 +38,6 @@ const CardWeather = ({ city }) => {
               type="font-awesome-5"
               name="thermometer-half"
               iconStyle={{ color: "#ccc", fontSize: 75 }}
-              onPress={() => setVisible(true)}
             />
             <Text style={{ fontSize: 100, color: "#585858" }}>{temp}°</Text>
           </View>
@@ -77,11 +77,30 @@ const CardWeather = ({ city }) => {
           </View>
         </Card>
       </View>
-    </>
+    </View>
   );
 };
 
+CardWeather.propType = {
+  city: PropTypes.object.isRequired
+};
 CardWeather.defaultProps = {
-  city: { next: [] }
+  city: {
+    name: "Buenos Aires",
+    temp: 12.1,
+    temp_min: 13.2,
+    temp_max: 15.1,
+    sensation: 10,
+    next: [
+      {
+        temp: 12.1,
+        temp_min: 13.2,
+        temp_max: 15.1,
+        sensation: 10,
+        humidity: 12
+      }
+    ],
+    humidity: 12
+  }
 };
 export default CardWeather;

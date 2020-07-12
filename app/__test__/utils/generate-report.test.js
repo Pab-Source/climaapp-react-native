@@ -3,8 +3,10 @@ import { weather } from "./weather";
 import { weatherFive } from "./weatherFive";
 
 describe("state generation functions", () => {
+  //ConvertTemp
   const tempTestString = "300";
   const tempTestNumber = 300;
+  //Generate state
   const fiveDaysFilter = weatherFive.list.filter(i =>
     i.dt_txt.includes("00:00:00")
   );
@@ -34,9 +36,10 @@ describe("state generation functions", () => {
     expect(test).toBe(27.0);
   });
 
-  test("generate state function", async () => {
+  test("generate state function", async done => {
     await generateReport(weather, fiveDaysFilter, state => {
       expect(state).toEqual(newState);
+      done();
     });
   });
 });
