@@ -9,8 +9,8 @@ _Aplicación sencilla de clima desarrollada con React Native Expo_
 
 _Ejecuta_
 
-`yarn install`
 **Yarn**
+`yarn install`
 
 ### Pre-requisitos 📋
 
