@@ -23,7 +23,7 @@ expo 3.21.5
 `Ejecutar emulador, (Android Studio o X-Code)`
 `expo start ó yarn start`
 
-**Android**`presionar la tecla "a" en la terminal`
+**Android**`presionar la tecla "a" en la terminal\n`
 **IOS**`presionar la tecla "i" en la terminal`
 
 **Visualizar app**
