@@ -40,6 +40,4 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 
 ## Autor ✒️
 
-- **Pablo Tirado** - _Trabajo Inicial_ - [Pab-Source](https://github.com/Pab-Source)
-
 por [Pab-Source](https://github.com/Pab-Source) 😊
