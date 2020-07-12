@@ -2,6 +2,10 @@
 
 _Aplicación sencilla de clima desarrollada con React Native Expo_
 
+![Home de la App](https://github.com/Pab-Source/climaapp-react-native/tree/master/assets/home-app.png)
+![Reporte](https://github.com/Pab-Source/climaapp-react-native/tree/master/assets/report.png)
+![Cinco días](https://github.com/Pab-Source/climaapp-react-native/tree/master/assets/five-days.png)
+
 ## Comenzando 🚀
 
 _Ejecuta_
